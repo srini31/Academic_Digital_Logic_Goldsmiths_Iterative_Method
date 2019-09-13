@@ -1,3 +1,5 @@
-# Academic: Neural-Networks-Extended-Kalman-Filter(EKF)
+# Academic: Digital-Logic-Goldsmiths-method
 
-This Project compares the Extended Kalman Filter (EKF) Algorithm with the Steepest Descent with Back Propagation Algorithm(SDBP) to determine the convergence criteria and efficiency of the EKF Algorithm by viewing the problem of training feed forward Neural Networks as an identification problem for solving non-linear dynamic system problems. A sine wave is taken as the target and the Network is trained by both EKF and SDBP and the results are compared. This project is based on the paper titled "Training Feed Forward Networks with the Extended Kalman Algorithm" written by Sharad Singhal and Lance Wu.
+The project discusses digital logic implementation for division, square root and complex division using Goldschmidt’s iterative method of multiplicative division and square root. The end result is a very efficient data path with less expensive iterations compared to other iterative division methods. Since it is important to perform an error analysis when making such a bold statement, a comparison of the results with results from a java software program is also performed. The mathematics behind the method is explained and the data path and control logic for the hardware is also thoroughly discussed. The results are illustrated using various diagrams, tables and System Verilog code. 
+
+ 
