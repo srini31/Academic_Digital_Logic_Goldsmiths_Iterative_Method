@@ -1,6 +1,3 @@
-#Academic: Digital-Logic-Goldsmiths-iterative-method
+# Academic: Neural-Networks-Extended-Kalman-Filter(EKF)
 
-In this project digital logic for Goldschmidt’s division and square root is implemented. By using the multiplication and division functions available in the data path, complex division is also 
-implemented. Since division is very expensive, most hardware devices implement this using software. The significance of the Goldschmidt’s method is that it converts division into an equivalent 
-multiplication problem which can be solved inexpensively. Goldschmidt’s method is based on Newton Raphson’s iterations and has quadratic convergence which means that after every iteration, the precision 
-is doubled and also eliminates a final multiplication involved in Newton Raphson’s method. 
+This Project compares the Extended Kalman Filter (EKF) Algorithm with the Steepest Descent with Back Propagation Algorithm(SDBP) to determine the convergence criteria and efficiency of the EKF Algorithm by viewing the problem of training feed forward Neural Networks as an identification problem for solving non-linear dynamic system problems. A sine wave is taken as the target and the Network is trained by both EKF and SDBP and the results are compared. This project is based on the paper titled "Training Feed Forward Networks with the Extended Kalman Algorithm" written by Sharad Singhal and Lance Wu.
